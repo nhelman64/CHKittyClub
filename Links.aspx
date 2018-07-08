@@ -14,7 +14,6 @@
                 <p><a href="http://lifewithchcats.com/">Life With Cerebellar Hypoplasia</a> - A blog about the joys and challenges of a cat who's growing up with special needs  </p>
                 <p><a href="http://www.pbase.com/uneek156/jillybean">The Story of JillyBean - A kitten with Cerebellar Hypoplasia</a> - Photo Gallery and Story of my CH Cat JillyBean</p>
                 <p><a href="http://cats.about.com/u/sty/catcare/Special-Needs-Cats-Stories/Mini-Dee-Has-Cerebral-Hypoplasia.htm">Mini Dee</a> - A CH Kitty Club member's kitty's story on About.com</p>
-                <p><a href="http://www.lighthousekitty.com/">Wobbles the Lighthouse Kitty</a> - Another of our members' sites</p>
                 <p><a href="http://theanimalvoice.blogspot.com/2008/02/feline-cerebellar-hypoplasia.html">The Animal Voice</a> - A blog featuring Charlie, the worlds most famous CH kitty</p>
 		    </div>
 	    </div>
@@ -29,12 +28,11 @@
 	    <div class="post">
 		    <div class="entry">
 		        <h2>Other Animal-Lover Support Sites</h2>
-			    <p><a href="http://pets.groups.yahoo.com/group/chkittyclub" target="_blank">CH Kitty Club on Yahoo Groups</a> - This was the original CH Kitty Club site.&nbsp; Now, the Facebook group gets all the activity.</p>
+			    <p><a href="http://groups.yahoo.com/group/chkittyclub/" target="_blank">CH Kitty Club on Yahoo Groups</a> - This was the original CH Kitty Club site.&nbsp; Now, the Facebook group gets all the activity.</p>
 			    <p><a href="https://www.facebook.com/groups/CHKittyClub/" target="_blank">CH Kitty Club on Facebook</a> - This is where we continue the conversation about life with our CH kitties</p>
                 <p><a href="http://hubpages.com/hub/Cerebellar-Hypoplasia">CH on HubPages</a> - A collection of information about CH and links to other related sites</p>
 			    <p><a href="http://www.petloss.com">Pet Loss</a> - Grief Support Web Site and Candle Ceremony.</p>
 			    <p><a href="http://www.moggies.co.uk">Moggies</a> - Home of the Online Cat Guide & more for Cat Lovers everywhere.</p>
-                <p><a href="http://www.specialneedspets.org/">www.specialneedspets.org</a> - Resources, information and support for caregivers of animals with special needs.</p>
                 <p><a href="http://www.i-love-cats.com">I-Love-Cats.com</a> - "Find out all about cats; cute cat pictures</p>
                 <p><a href="http://www.petplace.com/cats/cerebellar-hypoplasia-in-cats/page1.aspx">www.petplace.com's CH page</a> - Contains great detailed information about feline CH</p>
                 <p><a href="http://www.messybeast.com/disabled.htm#CH">www.messybeast.com</a> - More great information about living with cats with CH and other similar conditions</p>
@@ -45,20 +43,18 @@
 	    <div class="post">
 		    <div class="entry">
 			    <h2>Sources of Medical Information</h2>
-			    <p><a href="http://www.healthypet.com">American Animal Hospital Association</a> -  A very informative site for anyone with animals</p>
 			    <p><a href="http://www.vetinfo.com/catneuro.html">Neurological Disorders in Cats</a> - Has links to descriptions of different neurological problems. It's in the form of pet owner's questions and a vet's answers. Some illnesses seem like CH but are not, and this helps with differential diagnosis.</p>
 			    <p><a href="http://www.vetinfo.com/dencyclopedia/decerhypo.html">Cerebellar Hypoplasia</a> - VetInfo's CH page</p>
 			    <p><a href="http://www.facebook.com/?ref=home#!/pages/Felines-Living-With-Neurological-Disorders-Mokis-Story/126827897365939">Felines Living With Neurological Disorders</a> - Facebook page containing information concerning feline neurological disorders and links to other veterinarian associations</p>
                 <p><a href="http://www.merckvetmanual.com/mvm/index.jsp?cfile=htm/bc/57100.htm">Feline Panleukopenia: Introduction</a> - from the Merck Veterinary Manual</p>
                 <p><a href="http://www.petplace.com/cats/feline-panleukopenia/page1.aspx">Feline Panleukopenia</a> - from PetPlace.com</p>
-                <p><a href="http://maxshouse.com/feline_panleukopenia.htm">Feline Panleukopenia Virus (FIV)</a> - from Max's House, Cornell University</p>
                 <p><a href="http://www.felineconstipation.org">Feline Constipation</a> - Not written by a medical expert, but still contains very useful information</p>
 		    </div>
 	    </div>
 	    <div class="post">
 		    <div class="entry">
 		        <h2>Artists Who "Do" Pets</h2>
-			    <p><a href="http://www.nealhelman.com/joomla/index.php?option=com_wrapper&view=wrapper&Itemid=6">www.NealHelman.com</a> - Fine art paintings by Neal Helman</p>
+			    <p><a href="http://www.nealhelman.com/pet-painting-gallery">www.NealHelman.com</a> - Fine art paintings by Neal Helman</p>
 		    </div>
 	    </div>
 	    <div class="post">
