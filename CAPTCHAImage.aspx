@@ -1,0 +1,1 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CAPTCHAImage.aspx.vb" Inherits="CAPTCHA.CAPTCHAImage" %>

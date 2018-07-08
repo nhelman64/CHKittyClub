@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<emoticons>
+	<icon name="smiley" key=":)" imagePath="smiley.gif" />
+	<icon name="smiley" key="|-)" imagePath="bored.gif" />
+	<icon name="smiley" key=":P" imagePath="tounge.gif" />
+	<icon name="smiley" key=":(" imagePath="sad.gif" />
+	<icon name="smiley" key=":$" imagePath="shy.gif" />
+	<icon name="smiley" key=";)" imagePath="wink.gif" />
+	<icon name="smiley" key=":B" imagePath="buck.gif" />
+	<icon name="smiley" key=":@" imagePath="angry.gif" />
+	<icon name="smiley" key=":|" imagePath="stunned.gif" />
+	<icon name="smiley" key=":S" imagePath="crazy.gif" />
+	<icon name="smiley" key=":D" imagePath="openmouth.gif" />
+	<icon name="smiley" key="^o" imagePath="suss.gif" />
+	<icon name="smiley" key=":-O" imagePath="shocked.gif" />
+	<icon name="smiley" key="8|)" imagePath="mask.gif" />
+	<icon name="smiley" key="^^)" imagePath="alien.gif" />
+	<icon name="smiley" key="b(" imagePath="biker.gif" />
+	<icon name="smiley" key=":O~" imagePath="smoke.gif" />
+	<icon name="smiley" key="[)" imagePath="ninja.gif" />
+	<icon name="smiley" key="P}" imagePath="pirate.gif" />
+	<icon name="smiley" key="(B)" imagePath="beer.gif" />
+	<icon name="smiley" key="(*)" imagePath="star.gif" />
+	<icon name="smiley" key="(L)" imagePath="heart.gif" />
+	<icon name="smiley" key="(U)" imagePath="broken.gif" />
+	<icon name="smiley" key="(Y)" imagePath="thumbdown.gif" />
+	<icon name="smiley" key="(N)" imagePath="thumbup.gif" />
+	<icon name="smiley" key="(C)" imagePath="coffee.gif" />
+	<icon name="smiley" key="(R)" imagePath="rainbow.gif" />
+	<icon name="smiley" key="(K)" imagePath="lips.gif" />
+	<icon name="smiley" key="(6)" imagePath="devil.gif" />
+	<icon name="smiley" key="(I)" imagePath="bright.gif" />
+	<icon name="smiley" key="(D)" imagePath="wine.gif" />
+	<icon name="smiley" key="(^)" imagePath="cake.gif" />
+	<icon name="smiley" key="(P)" imagePath="camera.gif" />
+	<icon name="smiley" key="(O)" imagePath="clock.gif" />
+	<icon name="smiley" key="(n..." imagePath="goat.gif" />
+	<icon name="smiley" key="(S)" imagePath="moon.gif" />
+	<icon name="smiley" key="(T)" imagePath="phone.gif" />
+	<icon name="smiley" key="(G)" imagePath="present.gif" />
+	<icon name="smiley" key="(})" imagePath="reach.gif" />
+	<icon name="smiley" key="(#)" imagePath="sun.gif" />
+	<icon name="smiley" key="(F)" imagePath="rose.gif" />
+	<icon name="smiley" key="(W)" imagePath="wilt.gif" />
+</emoticons>

@@ -1,0 +1,72 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Site Offline For Maintenance</title>
+    <link href="http://www.virtualclancats.com/maintenance/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    
+<div>
+</div>
+
+	<div id="logo">
+		<h1><a href="#">CH Kitty Club</a></h1>
+
+		<p><em> Worldwide Support for People Living with Cerebellar Hypoplasia Cats</em></p>
+	</div>
+	<hr />
+	<!-- end #logo -->
+
+	<div id="header">
+		<div id="nshmenu" style="margin-top:5px;">
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <a href="Default.aspx" class="first">Home</a> &nbsp;|&nbsp; 
+		    <a href="Members.aspx">Member Showcase</a> &nbsp;|&nbsp; 
+		    <a href="PetDiary.aspx">Pet Diaries</a> &nbsp;|&nbsp; 
+		    <a href="Tips.aspx">Tips from Members</a> &nbsp;|&nbsp; 
+		    <a href="Adoptions.aspx">Adoptions</a> &nbsp;|&nbsp; 
+		    <a href="Chat.aspx">Live Chat</a> |
+            <a href="Videos.aspx">Videos</a>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Errata.aspx">Artistic Errata</a> &nbsp;|&nbsp; 
+		    <a href="Links.aspx">External Links</a> &nbsp;|&nbsp; 
+		    <a href="Birthdays.aspx">Birthdays</a> &nbsp;|&nbsp; 
+		    <a href="Memorials.aspx">Memorials</a> &nbsp;|&nbsp; 
+		    <a href="Donate.aspx">Donate/Fundraising</a> &nbsp;|&nbsp; 
+		    <a href="Join.aspx">Join</a> &nbsp;|&nbsp; 
+		    <a href="Contact.aspx">Contact</a>
+
+		</div>
+		<!-- end #menu -->
+
+
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+
+        
+    <div id="contents">
+        <div class="post">
+            <div class="entry">
+            <h2>The site is offline for maintenance</h2>
+            <p>We appreciate your patience.</p>
+            </div>
+        </div>
+    </div>
+
+	</div>
+	
+
+	<!-- end #page -->
+	<div style="clear: both;">&nbsp;</div>
+	<div id="footer">
+		<p>Copyright (c) 2010 CHKittyClub.com. All rights reserved.<br />Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	</div>
+
+	<!-- end #footer -->
+</body>
+</html>

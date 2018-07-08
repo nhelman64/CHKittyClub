@@ -1,0 +1,20 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="FixTixText.aspx.vb" Inherits="FixTixText" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <h1>Fix Tip Text</h1>
+    Change text "\r\n" to vbCrLf<br />
+        <asp:TextBox ID="TextBox1" runat="server" TextMode="MultiLine" MaxLength="8192" Rows="16" Width="566"></asp:TextBox>
+        <br /><br />
+        <asp:Button ID="ButtonFix" runat="server" Text="Fix All" />
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <title>CH Kitty Club</title>
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89087092-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <form id="main" runat="server">
+	<div id="logo">
+		<h1><a href="#">CH Kitty Club</a></h1>
+
+		<p><em> Worldwide Support for People Living with Cerebellar Hypoplasia Cats</em></p>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<div id="header">
+		<div id="nshmenu" style="margin-top:5px;">
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <a href="Default.aspx" class="first">Home</a> &nbsp;|&nbsp; 
+		    <a href="Members.aspx">Member Showcase</a> &nbsp;|&nbsp; 
+		    <a href="PetDiary.aspx">Pet Diaries</a> &nbsp;|&nbsp; 
+		    <a href="Tips.aspx">Tips from Members</a> &nbsp;|&nbsp; 
+		    <a href="Adoptions.aspx">Adoptions</a> &nbsp;|&nbsp; 
+		    <a href="Chat.aspx">Live Chat</a> |
+            <a href="Videos.aspx">Videos</a>&nbsp;
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <asp:LoginView ID="LoginViewMaster" runat="server">
+                <AnonymousTemplate>
+                    <a href="CreateAccount.aspx">Create Account</a> / <a href="Login.aspx">Sign In</a>
+                </AnonymousTemplate>
+                <LoggedInTemplate>
+                    Hello, 
+                    <asp:LoginName ID="LoginName1" runat="server" />.
+                    [<asp:LinkButton ID="LinkButtonLogout" runat="server" 
+                        onclick="LinkButtonLogout_Click" Font-Size="Small" CausesValidation="False">Logout</asp:LinkButton> | <a href="ChangePassword.aspx"><span style="font-size:small">Change Pwd</a>]
+                </LoggedInTemplate>
+            </asp:LoginView>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Errata.aspx">Artistic Errata</a> &nbsp;|&nbsp; 
+		    <a href="Links.aspx">External Links</a> &nbsp;|&nbsp; 
+		    <a href="Birthdays.aspx">Birthdays</a> &nbsp;|&nbsp; 
+		    <a href="Memorials.aspx">Memorials</a> &nbsp;|&nbsp; 
+		    <a href="Donate.aspx">Donate/Fundraising</a> &nbsp;|&nbsp; 
+		    <a href="Join.aspx">Join</a> &nbsp;|&nbsp; 
+		    <a href="Contact.aspx">Contact</a>
+		</div>
+		<!-- end #menu -->
+
+		<!--<div id="search">
+		</div>-->
+		<!-- end #search -->
+
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+        <asp:ContentPlaceHolder id="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	</div>
+	
+
+	<!-- end #page -->
+	<div style="clear: both;">&nbsp;</div>
+	<div id="footer">
+		<p>Copyright (c) 2008 CHKittyClub.com. All rights reserved.<br />Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	</div>
+	<!-- end #footer -->
+</form>
+</body>
+</html>

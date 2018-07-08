@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<themeSettings>
+    <setting key="Width" value="208" />
+    <setting key="Height" value="288" />
+    <setting key="BackColor" value="#A0AB9D" />
+    <setting key="BackImageUrl" value="back_strip_4.jpg" />
+    <setting key="FontFace" value="Arial, Verdana" />
+    <setting key="FontColor" value="MidnightBlue" />
+    <setting key="FontSizePixels" value="12" />
+    <setting key="MessageOutputFontFace" value="Arial, Verdana" />
+    <setting key="MessageOutputBackColor" value="White" />
+    <setting key="MessageOutputFontColor" value="Black" />
+    <setting key="MessageOutputUserNameFontColor" value="Black" />
+    <setting key="MessageOutputFontSizePixels" value="12" />
+    <setting key="MessageOutputBorderColor" value="DarkGray" />
+    <setting key="MessageOutputBorderWidthPixels" value="1" />
+    <setting key="MessageOutputPaddingTopPixels" value="2" />
+    <setting key="MessageOutputPaddingBottomPixels" value="1" />
+    <setting key="MessageOutputPaddingLeftPixels" value="8" />
+    <setting key="MessageOutputPaddingRightPixels" value="1" />
+    <setting key="MessageOutputBackImageUrl" value="" />
+    <setting key="MessageOutputPostIconUrl" value="icon.gif" />
+    <setting key="MessageOutputLinkColor" value="#5A80C6" />
+    <setting key="MessageInputFontSizePixels" value="12" />
+    <setting key="MessageInputBackImageUrl" value="" />
+    <setting key="MessageInputPaddingTopPixels" value="1" />
+    <setting key="MessageInputPaddingBottomPixels" value="1" />
+    <setting key="MessageInputPaddingLeftPixels" value="1" />
+    <setting key="MessageInputPaddingRightPixels" value="1" />
+    <setting key="MessageInputHeightPixels" value="38" />
+    <setting key="MessageInputBorderColor" value="DarkGray" />
+    <setting key="MessageInputBorderWidthPixels" value="1" />
+    <setting key="MessageInputFontFace" value="Arial, Verdana" />
+    <setting key="MessageInputFontColor" value="Black" />
+    <setting key="MessageInputBackColor" value="White" />
+    <setting key="PopupWindowBackImageUrl" value="" />
+    <setting key="PopupWindowBackColor" value="Gainsboro" />
+    <setting key="PopupWindowTitleFontColor" value="Black" />
+    <setting key="PopupWindowTitleFontSizePixels" value="12" />
+    <setting key="PopupWindowTitleFontFace" value="Arial, Verdana" />
+    <setting key="PopupWindowContentFontColor" value="Black" />
+    <setting key="PopupWindowContentFontSizePixels" value="10" />
+    <setting key="PopupWindowContentFontFace" value="Arial, Verdana" />
+    <setting key="ScrollBarIE3DLightColor" value="White" />
+    <setting key="ScrollBarIEArrowColor" value="LightGrey" />
+    <setting key="ScrollBarIEBaseColor" value="Silver" />
+    <setting key="ScrollBarIETrackColor" value="Gainsboro" />
+    <setting key="ScrollBarIEDarkShadowColor" value="Silver" />
+    <setting key="ScrollBarIEFaceColor" value="White" />
+    <setting key="ScrollBarIEHighlightColor" value="AliceBlue" />
+    <setting key="ScrollBarIEShadowColor" value="Silver" />
+    <setting key="EmoticonsButtonImageUrl" value="JaxterChat/Images/emoticons.gif" />
+    <setting key="UserListButtonImageUrl" value="JaxterChat/Images/users.gif" />
+    <setting key="PopupCloseButtonImageUrl" value="JaxterChat/Images/popup_close.gif" />
+    <setting key="ClearPageButtonImageUrl" value="JaxterChat/Images/clear_page.gif" />
+    <setting key="ToggleSoundOnButtonImageUrl" value="JaxterChat/Images/sound_on.gif" />
+    <setting key="ToggleSoundOffButtonImageUrl" value="JaxterChat/Images/sound_off.gif" />
+    <setting key="SendButtonImageUrl" value="JaxterChat/Images/send_button.gif" />
+    <setting key="ToolbarPanelHeightPixels" value="21" />
+    <setting key="FooterPanelHeightPixels" value="0" />
+    <setting key="HeaderPanelHeightPixels" value="23" />
+    <setting key="PaddingBottomPixels" value="5" />
+    <setting key="PaddingTopPixels" value="3" />
+    <setting key="PaddingLeftPixels" value="4" />
+    <setting key="PaddingRightPixels" value="4" />
+    <setting key="ShowSendButton" value="0" />
+</themeSettings>

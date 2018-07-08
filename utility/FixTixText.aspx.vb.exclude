@@ -1,0 +1,58 @@
+﻿Imports System.Data.SqlClient
+Imports System.Configuration
+Imports System.Data
+
+
+Partial Class FixTixText
+    Inherits System.Web.UI.Page
+
+    Protected Sub ButtonFix_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles ButtonFix.Click
+        'Dim sb As New StringBuilder
+        'sb.Append(TextBox1.Text)
+        'sb.Replace("\r\n", vbCrLf)
+        'TextBox1.Text = sb.ToString
+
+        Dim conn As New SqlConnection(ConfigurationManager.ConnectionStrings("CHKittyClub").ToString)
+        Try
+
+            Dim selCmd As New SqlCommand
+            With selCmd
+                .Connection = conn
+                .CommandType = CommandType.Text
+                .CommandText = "SELECT [TipText], [TipID] FROM DBO.CHKC_TIPS"
+            End With
+
+            Dim updCmd As New SqlCommand
+            With updCmd
+                .Connection = conn
+                .CommandType = CommandType.Text
+                .CommandText = "UPDATE DBO.CHKC_TIPS SET [TipText] = @TipText WHERE [TipID] = @TipID"
+
+                .Parameters.Add("@TipText", SqlDbType.VarChar, 8192, "TipText")
+
+                Dim pTipID As SqlParameter = .Parameters.Add("@TipID", SqlDbType.Int)
+                pTipID.SourceColumn = "TipID"
+                pTipID.SourceVersion = DataRowVersion.Original
+            End With
+
+            Dim da As New SqlDataAdapter
+            da.SelectCommand = selCmd
+            da.UpdateCommand = updCmd
+
+            Dim dt As New DataTable
+            da.Fill(dt)
+            Dim sb As New StringBuilder
+
+            For Each row As DataRow In dt.Rows
+                sb.Append(row("TipText").ToString)
+                sb.Replace("\r\n", vbCrLf)
+                row("TipText") = sb.ToString
+            Next
+            da.Update(dt)
+        Finally
+            If Not conn Is Nothing Then
+                conn.Close()
+            End If
+        End Try
+    End Sub
+End Class

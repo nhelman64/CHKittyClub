@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <title>CH Kitty Club</title>
+    </asp:ContentPlaceHolder>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <form id="main" runat="server">
+	<div id="logo">
+		<h1><a href="#">CH Kitty Club</a></h1>
+
+		<p><em> Worldwide Support for People Living with Cerebellar Hypoplasia Cats</em></p>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<div id="header">
+		<div id="nshmenu" style="margin-top:5px;">
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <a href="http://www.chkittyclub.com/Default.aspx" class="first">Home</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Members.aspx">Member Showcase</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/PetDiary.aspx">Pet Diaries</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Tips.aspx">Tips from Members</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Adoptions.aspx">Adoptions</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Chat.aspx">Live Chat</a> |
+            <a href="http://www.chkittyclub.com/Videos.aspx">Videos</a>&nbsp;
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <asp:LoginView ID="LoginViewMaster" runat="server">
+                <AnonymousTemplate>
+                    <a href="http://www.chkittyclub.com/CreateAccount.aspx">Create Account</a> / <a href="http://www.chkittyclub.com/Login.aspx">Sign In</a>
+                </AnonymousTemplate>
+                <LoggedInTemplate>
+                    Hello, 
+                    <asp:LoginName ID="LoginName1" runat="server" />.
+                    [<asp:LinkButton ID="LinkButtonLogout" runat="server" 
+                        onclick="LinkButtonLogout_Click" Font-Size="Small">Logout</asp:LinkButton> | <a href="http://www.chkittyclub.com/ChangePassword.aspx"><span style="font-size:small">Change Pwd</a>]
+                </LoggedInTemplate>
+            </asp:LoginView>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.chkittyclub.com/Errata.aspx">Artistic Errata</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Links.aspx">External Links</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Birthdays.aspx">Birthdays</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Memorials.aspx">Memorials</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Donate.aspx">Donate/Fundraising</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Join.aspx">Join</a> &nbsp;|&nbsp; 
+		    <a href="http://www.chkittyclub.com/Contact.aspx">Contact</a>
+		</div>
+		<!-- end #menu -->
+
+		<!--<div id="search">
+		</div>-->
+		<!-- end #search -->
+
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+        <asp:ContentPlaceHolder id="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	</div>
+	
+
+	<!-- end #page -->
+	<div style="clear: both;">&nbsp;</div>
+	<div id="footer">
+		<p>Copyright (c) 2008 CHKittyClub.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+	</div>
+	<!-- end #footer -->
+</form>
+</body>
+</html>
