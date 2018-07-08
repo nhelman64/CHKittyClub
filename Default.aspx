@@ -45,7 +45,7 @@
             <h2>CH Informational Brochure</h2>
             <div class="entry">
                 <p>Elise Murphy put together a printable brochure for distribution to vets, shelters, rescues, pet stores, etc, etc about CH...causes, symptoms, prognosis, severity levels...anything that anyone might need to know to get "started" with or recognize a CH kitty.  It would be great if you all could pass it along to anyone in your area of the world so that we can get the word about our precious kitties out there faster and save more lives!</p>
-                <p>The document is meant to be a 1 pager (front & back) - <a href="CH_Handout1.pdf">full-page handout</a>
+                <p>Both documents are meant to be 1 pagers (front & back) - <a href="CH_Handout.pdf">full-page handout</a>, <a href="CH_Brochure.pdf">tri-fold brochure</a>
             </div>
         </div>
         <div class="post">
